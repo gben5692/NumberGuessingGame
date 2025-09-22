@@ -13,7 +13,7 @@ I created the Number Guessing Game to improve my C# skills.
 ## 🛠 Requirements
 
 - Windows / Linux / macOS (x64)
-- [.NET 8.0 Runtime](https://dotnet.microsoft.com/en-us/download/dotnet/8.0) — *(only required for framework-dependent builds)*  
+- [.NET 8.0 Runtime](https://dotnet.microsoft.com/en-us/download/dotnet/8.0) — *(only required for non-self-contained builds)*  
 - No install required for self-contained builds
 
 ---
@@ -22,9 +22,9 @@ I created the Number Guessing Game to improve my C# skills.
 
 1. Go to the **[Releases](../../releases)** section.
 2. Download the ZIP for your OS:
-   - `NumberGuessingGame-win-x64.zip`
-   - `NumberGuessingGame-linux-x64.zip`
-   - `NumberGuessingGame-osx-x64.zip`
+   - `win-x64.zip`
+   - `linux-x64.zip`
+   - `osx-x64.zip`
 3. Extract the folder.
 4. Run the executable inside:
    - On Windows: `NumberGuessingGame.exe`
@@ -36,8 +36,6 @@ I created the Number Guessing Game to improve my C# skills.
 
 - Easy / Medium / Hard difficulty levels
 - High score saving with usernames
-- User feedback with randomized hints
-- Replay support
 - Multi-platform support
 
 ---
