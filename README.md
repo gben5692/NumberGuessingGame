@@ -48,4 +48,4 @@ Created by **gben5692**
 > Version `v1.1.0` adds cross-platform support and several gameplay improvements.
 
 > [!Caution]
-> :shipit: Production-ready-ish.
+> :shipit:
