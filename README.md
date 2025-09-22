@@ -6,40 +6,48 @@ I created the Number Guessing Game to improve my C# skills.
 
 ## About
 
-NumberGuessingGame is a simple game that runs in the Windows console.  
-It saves usernames along with their scores (high scores) for each difficulty level.
+**NumberGuessingGame** is a simple, cross-platform console game where you try to guess a randomly generated number. It saves high scores per difficulty level along with usernames.
 
 ---
 
-## Requirements
+## 🛠 Requirements
 
-- Windows 10 or Windows 11  
-- [.NET Framework 4.8](https://dotnet.microsoft.com/en-us/download/dotnet-framework/net48) runtime installed  
-  *(This game was built targeting .NET Framework 4.8)*
+- Windows / Linux / macOS (x64)
+- [.NET 8.0 Runtime](https://dotnet.microsoft.com/en-us/download/dotnet/8.0) — *(only required for framework-dependent builds)*  
+- No install required for self-contained builds
 
 ---
 
 ## Installation & Running
 
-1. Download the program from the **Releases** section.
-2. Extract the downloaded folder.
-3. Open the extracted folder and run the executable file (`NumberGuessingGame.exe`).
-4. Follow the instructions shown in the console to play the game.
+1. Go to the **[Releases](../../releases)** section.
+2. Download the ZIP for your OS:
+   - `NumberGuessingGame-win-x64.zip`
+   - `NumberGuessingGame-linux-x64.zip`
+   - `NumberGuessingGame-osx-x64.zip`
+3. Extract the folder.
+4. Run the executable inside:
+   - On Windows: `NumberGuessingGame.exe`
+   - On Linux/macOS: `./NumberGuessingGame`
 
 ---
 
 ## Features
 
-- Three difficulty levels: Easy, Medium, and Hard.
-- Saves and displays high scores with usernames.
-- Friendly feedback messages after each guess.
-- Replay the game as many times as you want.
+- Easy / Medium / Hard difficulty levels
+- High score saving with usernames
+- User feedback with randomized hints
+- Replay support
+- Multi-platform support
 
 ---
 
 ## Author
 
-This project was created by **gben5692**.
+Created by **gben5692**
+
+> [!Note]
+> Version `v1.1.0` adds cross-platform support and several gameplay improvements.
 
 > [!Caution]
-> :shipit:
+> :shipit: Production-ready-ish.
